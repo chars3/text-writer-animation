@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Writer animation</title>
+</head>
+<body>
+    <h1>Conecte <span id="elemento"></span> com seus sistemas</h1>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var options = {
+            strings: [
+                'Omie ERP',
+                'RD Station CRM',
+                'Conta Azul',
+                'Stripe',
+                'Mercado Livre',
+                'ClickSign',
+                'SOC',
+                'Google Sheets',
+                'Google Drive',
+                'Bling',
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 2000,
+            startDelay: 0,
+            loop: true
+        };
+        var typed = new Typed('#elemento', options);
+    </script>
+</body>
+</html>
